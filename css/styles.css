@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.container li a{
+    text-decoration: none;
+    color: whitesmoke;    
+    transition: 1s background-color, color 1s;
+}
+.container li a:hover{
+    text-decoration: underline;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.menu{
+    background: black;  
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    opacity: 0.9;
+    z-index: 1;
+}
+body{
+    background-color: pink;
+    background: url("../img/background.png");
+    /*background-repeat: no-repeat;*/
+    text-align: justify;
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 12px;
+    font-family: 'Titillium Web';
+}
+
+#Home,
+#Learning,
+#Health,
+#Games
+{
+    width: 1000px;
+    margin: -20px auto 10px auto;
+}
+
+.site-title{
+    text-align: center;
+    font-size: 4em;
+    line-height: 1.8em;
+    font-family: 'Bubblegum Sans', cursive;
+}
+/*
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+*/
+.menu{
+    border: solid black ;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;        
+}
+
+.menu a {
+    font-weight: bolder;
+    display: block;
+    padding:  10px 20px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.title{
+    margin-top: 80px;
+    font-size: 1.7em;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-content {
+    width: 50%;
+    /*height: 640px;*/
+}
+l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*height: 320px;*/
+    color: #fff;
+}
+.item-2{
+    text-align: center;
+}
+.item-3 {
+    width: 15%;
+}
+
+.col-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 640px;
+    color: #fff;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #c0504d;
+    text-align: center;
+    color: #fff;
+}
+.HomeDetail{
+    font-size: 1.5em;  
+    margin: 65px 0px 65px 0px; 
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;    
+}
+
+h4{
+    text-align: center;
+    margin: 0px 0 82px 0;
+}
+
+.img_games{    
+    height: 100px;
+    width: 100px;       
+}
+.img_videos{
+    height: 200px;
+    width: 400px;    
+}
+
+figcaption{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bolder;
+    transition: color 0.5s;
+}
+figcaption:hover{
+    color: red;
+}
+.text_games{
+   margin: 20px 20px 54px 20px; 
+}
+
+
+.grid{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4,240px);
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.icons{
+    text-align: center;
+}  
+
+
+.contato a {
+    color: whitesmoke;
+    font-size: 1.5em;
+    transition: text-shadow 1s, 1s background-color;
+}
+
+.contato a:active,
+.contato a:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #ffffffc7;
+    background-color: black;
+}  
+
+
+
